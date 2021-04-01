@@ -20,17 +20,38 @@ main{
 }
 
 button{
-    background-color: #a9e4efce;
+    background-color: #a9e4ef;
     cursor: pointer;
     border: none;
+    outline: 0;
+    transition: widht 2s;
     border-radius: 20px;
     width: 80px;
     height: 30px;
 }
 
+button:hover{
+    width: 90px;
+}
+
 input{
     border: none;
+    outline: 0;
     padding: 5px;
     border-radius: 20px;
     width: 200px;
+}
+
+.cadeado img{
+    width: 20px;
+    position: relative;
+    top: -116px;
+    left: -115px;
+}
+
+.pessoa img{
+    width: 20px;
+    position: relative;
+    top: -96px;
+    left: -115px;
 }
